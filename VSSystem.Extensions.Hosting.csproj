@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net6.0</TargetFrameworks>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Evidence IQ</Authors>
+    <Copyright>Evidence IQ</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <OutputType>Library</OutputType>
+    <PackageId>VSSystem.Extensions.Hosting</PackageId>
+    <Version>1.1.8</Version>
+    <IsPackable>true</IsPackable>
+    <FileVersion>1.1.8</FileVersion>
+    <OutputPath>bin</OutputPath>
+    <AssemblyName>VSSystem.Extensions.Hosting</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="VSSystem" Version="1.1.8" /> -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../../NETStd/VSSystem/VSSystem.csproj" />
+  </ItemGroup>
+</Project>
